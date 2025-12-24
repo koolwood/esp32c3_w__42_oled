@@ -2,7 +2,7 @@
 
 /* Check if Bluetooth configurations are enabled in the SDK */
 /* If not, then you have to recompile the SDK */
-#if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
+#if !defined(CONFIG_BT_ENABLED) //|| !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
 #endif
 
